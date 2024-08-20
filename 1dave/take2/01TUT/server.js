@@ -14,6 +14,10 @@ const os = require('os');
 const path = require('path');
 const math = require('./math');
 
+// destructuing 
+const { subtracter } = require('./math');
+
+
 console.log(os.type());
 console.log(os.version());
 console.log(os.homedir());
@@ -25,3 +29,12 @@ console.log(__filename);
 console.log(path.dirname(__filename));
 
 console.log(path.parse(__filename));
+
+// my custom module 'math'
+console.log(math.adder(3, 5));
+console.log(math.multiplier(2, 3) + " multiplier");
+console.log(math.divider(10, 2) + " divider");
+
+console.log(subtracter(10, 5) + " subtracted");
+
+console.log(math.exponent(2, 3) + " exponent");
