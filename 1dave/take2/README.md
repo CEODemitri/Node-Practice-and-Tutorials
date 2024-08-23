@@ -21,7 +21,7 @@ Questions:
 1. In my math.js module, why can I not combine the shorthand export modules exports.{function} = ... with the vanilla module.exports = {...} inside of one file
 2. Basic NodeJS missing some API compared to Javascript
 
-@ 03:53 8 21
+@ 03:53 8 21 pt null
 ### Video 2
 Summary: 
 Time To Complete:
@@ -31,4 +31,14 @@ Questions:
 ### Video 2
 Summary: Node and functions runs asynchronously. fs.appendFile will create a new file if named doesn't exist.
 Time to Complete: 15min
-Questions: Why is it important that Node runs asynchronously? Benefit of using Node to [crud] text files?
+Questions: Why is it important that Node runs asynchronously?
+    #### Answers: 
+    1. Why async? Useful for I/O bound tasks like reading from file system, network operations, etc
+    2. Better use of syystem resources leading to more efficient performance and scalability
+    3. Responsive Applications 
+
+@ 20:06 8 23 pt 2
+### Video 2
+Summary: Using Promises to make the code run simplier and more efficient
+Time to Complete: 
+Questions: Benefit of using Node to [crud] text files?
